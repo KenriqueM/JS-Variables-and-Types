@@ -5,8 +5,6 @@
     * [ ] While substracting and dividing keep in mind the number one should be greater then number two. If not show alert saying `Number Two is larger then Number one`.
   ⚡️ Operations
     * [ ] Add
-
-    var user = prompt()
     * [ ] Sub
     * [ ] Mul
     * [ ] Div
@@ -27,7 +25,10 @@ if (firstname = status) {
 ```js
 // your code goes here
 
-var num = prompt
+var numbers = prompt("Enter two numbers");
+
+
+
 ```
 
 4. 🎖Write a JavaScript conditional statement to find the sign (+, -) of product of three numbers. Take those three numbers from user using `prompt`. Display an alert box with the specified sign.

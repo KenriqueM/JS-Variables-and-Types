@@ -5,7 +5,7 @@
 * [ ] Logical AND operation
 
 ```js
-true  && true; // true 
+true  && true; // true  //&& takes the first falsy value
 true  && false; // false
 false && true; // false
 false && false; // false
@@ -20,7 +20,7 @@ false && "Hey" && undefined // false
 
 * [ ] Logical OR operation
 ```js
-true  || true; // true
+true  || true; // true // || looks for first truthy value
 true  || false; // true
 false || true; // true
 false || false; // false
@@ -34,6 +34,7 @@ false || "Hey" || undefined // "Hey"
 ```
 
 2. 🥈You have two variables i.e `isGuestOneVeg` and  `isGuestTwoVeg` according to the value using logical && and || opeartor do the following.
+
 
 * [ ] If both are veg "Only offer up vegan dishes."
 * [ ] At least one veg  "Make sure to offer up some vegan options."
@@ -53,7 +54,6 @@ function menu(isGuestOneVeg,isGuestTwoVeg) {
 }
 }
 ```
-
 
 3. 🎖Using the variable `temperature` and logical operators do the following
 * [ ] If temperature is less then 32 alert "It is freezing outside"
