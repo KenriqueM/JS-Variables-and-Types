@@ -34,7 +34,7 @@ null == 21 //false
 
 null == "null" // true
 
-undefined == "undefined" // true
+undefined == "undefined" // false
 
 undefined == 0 // false
 
