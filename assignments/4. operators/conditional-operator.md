@@ -2,7 +2,7 @@
 1.  🎖Make a simple calculator with these functions. Using prompt, type conversion, if else statement. Use prompt to take the input from user i.e two numbers and an operation (Add, Sub, Mul, Div).
 
   ⛑ Rule
-    * [ ] While substracting and dividing keep in mind the number one should be greater then number two. If not show alert saying `Number Two is larger then Number one`.
+    * [ ] While substracting and dividing keep in mind the number one should be greater than number two. If not show alert saying `Number Two is larger then Number one`.
   ⚡️ Operations
     * [ ] Add
     ```js 
@@ -10,18 +10,28 @@
     var num1 = prompt("Enter a number");
     var num2 = prompt("Enter a number");
 
-    if (num1 + num2 ) {
-    	alert("num2 is larger")
-    }
+
+   	var operation = prompt("Enter an operator e.g Add, Sub, Div, Mul");
 	
+   	if (operation == "+") {
+   		alert( Number(num1) + Number(num2) );
+   	} 
+    
+    //* [ ] Sub
+    	else if (operation == "-") {
+   		alert( Number(num1) - Number(num2) );
+    } 
 
-    * [ ] Sub
+    //* [ ] Mul
+    	else if (operation == "/") {
+   		alert( Number(num1) / Number(num2) );
+    } 
 
 
-    * [ ] Mul
-
-
-    * [ ] Div
+    //* [ ] Div
+    	else if (operation == "*") {
+   		alert( Number(num1) * Number(num2) );
+    } 
 
     ```
 
@@ -70,6 +80,7 @@ alert("-")
 } else {
 alert("+")
 }
+}
 ```
 
 ## Switch Statement
@@ -89,40 +100,18 @@ Take a number value from user and alert the message if it matches the conditions
 * [ ] PLEASE TRY AGAIN, if  is none of the above.
 ```js
 // Your code goes here
+var value = prompt("Enter a number");
 
-function message() {
-  var number = prompt("enter a number");
-  switch (Number(number)) {
-    case 1:
-      alert("is equal to 1");
-      break;
-    case 2:
-      alert("is equal to 2");
-      break;
-    case 3:
-      alert("is equal to 3");
-      break;
-    case 4:
-      alert("is equal to 4");
-      break;
-    case 5:
-      alert("is equal to 5");
-    case 6:
-      alert("is equal to 6");
-      break;
-    case 7:
-      alert("is equal to 7");
-      break;
-    case 8:
-      alert("is equal to 8");
-      break;
-    case 9:
-      alert("is equal to 9");
-      break;
-    default:
-      alert("none of the above");
-  }
+if (value == number) {
+	switch(number) {
+
+	case 1:
+	alert("number is equal to 1");
+	break;
+	case 2:
+	alert("number is equal to 2");
 }
+
 
 ```
 
@@ -139,4 +128,6 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
 * [ ] `FF` if `marks` is less than or equal to 30
 ```js
 // Your code goes here
+
+
 ```
