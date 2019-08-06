@@ -5,9 +5,25 @@
     * [ ] While substracting and dividing keep in mind the number one should be greater then number two. If not show alert saying `Number Two is larger then Number one`.
   ⚡️ Operations
     * [ ] Add
+    ```js 
+    //My code 
+    var num1 = prompt("Enter a number");
+    var num2 = prompt("Enter a number");
+
+    if (num1 + num2 ) {
+    	alert("num2 is larger")
+    }
+	
+
     * [ ] Sub
+
+
     * [ ] Mul
+
+
     * [ ] Div
+
+    ```
 
 2. 🎖Write a if else statement which checks if the status is single `console.log` the message `John is single` or else `John is married`
 ```js
@@ -25,9 +41,15 @@ if (firstname = status) {
 ```js
 // your code goes here
 
-var numbers = prompt("Enter two numbers");
+var num1 =prompt("Enter the first number");
+var num2 =prompt("Enter the second number");
 
+if (num1 > num2) {
+	alert(num1 + " is larger");
 
+} else {
+	alert(num2 + " is larger");
+}
 
 ```
 
@@ -35,6 +57,19 @@ var numbers = prompt("Enter two numbers");
 
 ```js
 // Your code goes here
+function multiply() {
+
+var num1 = prompt("enter a number");
+var num2 = prompt("enter a number");
+var num3 = prompt("enter a number");
+
+var product = num1, num2, num3;
+
+if (product <= 0) {
+alert("-")
+} else {
+alert("+")
+}
 ```
 
 ## Switch Statement
@@ -54,6 +89,41 @@ Take a number value from user and alert the message if it matches the conditions
 * [ ] PLEASE TRY AGAIN, if  is none of the above.
 ```js
 // Your code goes here
+
+function message() {
+  var number = prompt("enter a number");
+  switch (Number(number)) {
+    case 1:
+      alert("is equal to 1");
+      break;
+    case 2:
+      alert("is equal to 2");
+      break;
+    case 3:
+      alert("is equal to 3");
+      break;
+    case 4:
+      alert("is equal to 4");
+      break;
+    case 5:
+      alert("is equal to 5");
+    case 6:
+      alert("is equal to 6");
+      break;
+    case 7:
+      alert("is equal to 7");
+      break;
+    case 8:
+      alert("is equal to 8");
+      break;
+    case 9:
+      alert("is equal to 9");
+      break;
+    default:
+      alert("none of the above");
+  }
+}
+
 ```
 
 2. 🎖Using switch statement do the following

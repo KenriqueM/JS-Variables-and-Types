@@ -46,4 +46,4 @@ var city = "Dharamshala";
 var country = "India";
 // Alert the above variable like "Dharamshala, India";
 
-alert(city, + "," + country);
+alert(city, + ', ' + country);

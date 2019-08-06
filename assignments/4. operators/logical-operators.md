@@ -44,15 +44,10 @@ let isGuestOneVeg = false;
 let isGuestTwoVeg = false;
 // Your code goes here
 
-function menu(isGuestOneVeg,isGuestTwoVeg) {
-	if (isGuestOneVeg === true && isGuestTwoVeg === true) {
-	return 'Only Vegan Dishes'
-} else if (isGuestOneVeg === true && isGuestTwoVeg === false || isGuestOneVeg === false && isGuestTwoVeg === true ) {
-	return "here are some vegan dishes"
-} else {
-	return "here's the menu"
-}
-}
+if (isGuestOneVeg && isGuestTwoVeg) alert("Only offer up vegan dishes");
+else if ((isGuestOneVeg && !isGuestTwoVeg) || (!isGuestOneVeg && isGuestTwoVeg))
+  alert("Make sure to offer up some vegan options.");
+else alert("Offer up anything on the menu!");
 ```
 
 3. 🎖Using the variable `temperature` and logical operators do the following
