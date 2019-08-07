@@ -9,7 +9,12 @@
     //My code 
     var num1 = prompt("Enter a number");
     var num2 = prompt("Enter a number");
-
+    
+    if (num1 >= num2) {
+    	alert(num1 is greater);
+    } else {
+    	alert(num2 is larger);
+    }
 
    	var operation = prompt("Enter an operator e.g Add, Sub, Div, Mul");
 	
@@ -100,17 +105,40 @@ Take a number value from user and alert the message if it matches the conditions
 * [ ] PLEASE TRY AGAIN, if  is none of the above.
 ```js
 // Your code goes here
-var value = prompt("Enter a number");
+var value = +prompt("Enter a number");
 
-if (value == number) {
-	switch(number) {
+	switch(value) {
 
 	case 1:
-	alert("number is equal to 1");
+	alert("One");
 	break;
 	case 2:
-	alert("number is equal to 2");
-}
+	alert("Two");
+	break;
+	case 3:
+	alert("Three");
+	break;
+	case 4:
+	alert("Four");
+	break;
+	case 5:
+	alert("Five");
+	break;
+	case 6:
+	alert("Six");
+	break;
+	case 7:
+	alert("Seven");
+	break;
+	case 8:
+	alert("Eight");
+	break;
+	case 9:
+	alert("Nine");
+	break;
+	default:
+	alert("Please try again");
+	}
 
 
 ```
@@ -128,6 +156,36 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
 * [ ] `FF` if `marks` is less than or equal to 30
 ```js
 // Your code goes here
+var marks = +prompt("Enter marks between 0-100");
+
+	switch (true) {
+		case marks > 90:
+		alert("AA");
+		break;
+		case marks > 80 <= 90:
+		alert("AB");
+		break;
+		case marks > 70 <= 80:
+		alert("BB");
+		break;
+		case marks > 60 <= 70:
+		alert("BC");
+		break;
+		case marks > 50 <= 60:
+		alert("CC");
+		break;
+		case marks > 40 <= 50:
+		alert("CD");
+		break;
+		case marks > 30 <= 40:
+		alert("DD");
+		break;
+		case marks >= 30:
+		alert("FF");
+		break;
+		default:
+		alert("you're not qualified");
+	}
 
 
 ```
