@@ -71,9 +71,10 @@ let temperature = 4;
 	}
 ```
 
-4. 🎖 Output of this
+4. 🎖 Output of this and with the reason
 ```js
 alert( alert(1) || 2 || alert(3) );
- // 1, 2, 3
+
+// 2 because alert returns undefined and || looks for the first truthy value which is 2.
 
 ```
