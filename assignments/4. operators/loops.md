@@ -15,7 +15,11 @@ var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
 
-
+for (var amount = 0; amount <= bank_balance: amount++) {
+	if (amount <= SPENDING_THRESHOLD) {
+		return amount = 
+	}
+}
 
 ```
  ⛑ Answer of the above will `$334.76`.
@@ -55,12 +59,11 @@ for (i = 0; i <= 10; i++) {
 .... for all 100 results)
 
 ```js
-
 var m;
 
 for (i = 1; i <= 100; i++) {
   m = i * 1;
-      console.log(i + '*' + '1' +' = '+  m  );
+      console.log(1 + '*' + i + '=' +  m  );
     }
 
 ````
@@ -71,8 +74,13 @@ for (i = 1; i <= 100; i++) {
 // 6, 7, 8, 9, 10
 
 // Your code goes here
-for (var i = 0; i <= 10; i++) {
-	console.log(i);
+
+var str = " "
+for (i = 0; i <= 10; i++) {
+	str = str + i + ",";
+	if (str < 5) {
+
+	}	
 }
 
 ```
@@ -83,7 +91,7 @@ for (var i = 0; i <= 10; i++) {
 var i = 1;
 while (i <= 20) {
 	console.log(i)
-	++1
+	i++;
 }
 
 ```
@@ -92,10 +100,9 @@ while (i <= 20) {
 ```js
 // Your code goes here
 var i = 1;
-
-while (i <= 20) {
-	if ( 1 % 2 === 0);
-	console.log(i) 
-	i++;
-}
+while (i <=20) {
+	if (i % 2 === 0)
+		console.log(i)
+		i++;
+} 
 ```
