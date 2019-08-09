@@ -15,12 +15,6 @@ var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
 
-for (var amount = 0; amount <= bank_balance: amount++) {
-	if (amount <= SPENDING_THRESHOLD) {
-		return amount = 
-	}
-}
-
 ```
  ⛑ Answer of the above will `$334.76`.
 
@@ -61,8 +55,8 @@ for (i = 0; i <= 10; i++) {
 ```js
 var m;
 
-for (i = 1; i <= 100; i++) {
-  m = i * 1;
+	for (i = 1; i <= 100; i++) {
+  		m = i * 1;
       console.log(1 + '*' + i + '=' +  m  );
     }
 
@@ -75,34 +69,35 @@ for (i = 1; i <= 100; i++) {
 
 // Your code goes here
 
-var str = " "
-for (i = 0; i <= 10; i++) {
-	str = str + i + ",";
-	if (str < 5) {
-
-	}	
-}
+ var a=''
+ var b=''
+ 	for (i = 1; i < 6; i++) {
+		a = a + i+', ';
+		b = b+(i+5)+', ';	
+	}
+	console.log(a);
+	console.log(b);
 
 ```
 
 6. 🎖Use a while loop to add up the numbers 1 to 20.
 ```js
 // Your code goes here
-var i = 1;
-while (i <= 20) {
-	console.log(i)
-	i++;
-}
+	var i = 1;
+	while (i <= 20) {
+		console.log(i)
+		i++;
+	}
 
 ```
 
 7. 🎖Use a while loop to print out the even number from 1 to 20. (You'll need Modulus for this. And an IF Statement.)
 ```js
 // Your code goes here
-var i = 1;
-while (i <=20) {
+	var i = 1;
+		while (i <=20) {
 	if (i % 2 === 0)
 		console.log(i)
 		i++;
-} 
+	} 
 ```

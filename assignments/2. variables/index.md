@@ -12,7 +12,7 @@ name is a variable.
   It should be in camelCase without the space. //productCost
 ```
 
-3. Write `Right or Wrong` next to the code below.
+Write `Right or Wrong` next to the code below. 
 
 ```js
   "Hello World" // Right
