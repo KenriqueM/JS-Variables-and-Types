@@ -1,6 +1,6 @@
 ## Hello World!
   1. Make a index.html
-  2. Prompt message "Enter You Name"
+  2. Prompt message "Enter Your Name"
   3. Store the vlaue in a variable
   4. Alert the value like this `Good Morining John`
 
